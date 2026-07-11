@@ -1,5 +1,5 @@
 class Student:
-    def __init__(self, name, age, student_id, course, grade,gender,year,section,email,phone,address,cgpa):
+    def __init__(self, name, age, student_id, course, grade, gender, year, section, email, phone, address, cgpa):
         self.name = name
         self.age = age
         self.student_id = student_id
@@ -27,5 +27,3 @@ class Student:
         print(f"Address: {self.address}")
         print(f"CGPA: {self.cgpa}")
         print("-"*30)
-        
-    
